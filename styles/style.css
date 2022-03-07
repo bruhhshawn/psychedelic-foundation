@@ -1,9 +1,19 @@
 /*font-family: 'Roboto', sans-serif;*/
+:root {
+  --branding-color: linear-gradient(
+    180deg,
+    rgba(132, 130, 235, 0.35) 0%,
+    rgba(130, 235, 235, 0.47) 100%
+  );
+  mix-blend-mode: normal;
+  --font-family: "Roboto", sans-serif;
+  --text-color: #616161;
+}
 body {
-  background-color: aqua;
 }
 
-h1 {
+h1,
+h3 {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
@@ -11,4 +21,22 @@ h1 {
 p {
   font-family: "roboto", sans-serif;
   font-weight: 100;
+}
+.hero {
+  text-align: center;
+  color: #616161;
+  padding: 160px 20px;
+}
+.hero h1,
+h3 {
+  padding: 30px 10px;
+}
+.btn-branding {
+  border-radius: 100px;
+  color: #616161;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  padding: 30px 10px;
+  background: var(--branding-color);
 }
