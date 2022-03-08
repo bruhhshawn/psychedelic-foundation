@@ -51,11 +51,12 @@ h3 {
   color: #616161;
   text-align: center;
   font-weight: bold;
-  width: 150px;
-  height: 150px;
   padding: 30px 30px 30px 30px;
   margin: 30px;
   background: var(--branding-color);
+  width: 150px;
+  height: 150px;
+  line-height: 5.5;
 }
 .btn-branding:hover {
   background: var(--second-branding-color);
