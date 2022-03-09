@@ -69,8 +69,8 @@ h3 {
   color: #616161;
   text-align: center;
   font-weight: bold;
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   padding: 30px 10px;
 }
 
@@ -127,4 +127,30 @@ h3 {
   width: 40px;
   height: 40px;
   border-radius: 100px;
+}
+.btn-about {
+  border-radius: 5px;
+  border: 1px;
+  border-color: #616161;
+  color: #616161;
+  text-align: center;
+  font-weight: bold;
+  padding: 30px 30px 30px 30px;
+  margin: 30px;
+  background: var(--branding-color);
+  width: 250px;
+  height: 50px;
+  line-height: 0.3;
+}
+.btn-about:hover {
+  background: var(--second-branding-color);
+  border-radius: 5px;
+  border: 1px;
+  border-color: #616161;
+  color: #616161;
+  text-align: center;
+  font-weight: bold;
+  width: 280px;
+  height: 50px;
+  padding: 30px 10px;
 }
