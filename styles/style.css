@@ -30,6 +30,9 @@ h3 {
   font-family: "Roboto", sans-serif;
   font-weight: medium;
 }
+h4 {
+  color: palevioletred;
+}
 
 p {
   font-family: "roboto", sans-serif;
@@ -97,4 +100,21 @@ h3 {
   height: 250px;
   padding: 30px 10px;
   margin: 30px;
+}
+.vendor-logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-top: 50px;
+}
+.vendor-link {
+  color: palevioletred;
+}
+.vendor-description {
+  border-radius: 5px;
+  border: 2px;
+  border-color: palevioletred;
+  background-color: whitesmoke;
+  padding: 30px;
+  margin: 20px;
 }
