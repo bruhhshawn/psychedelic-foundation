@@ -109,9 +109,11 @@ h3 {
 }
 .vendor-link {
   color: palevioletred;
+  text-decoration: none;
 }
 .vendor-link:hover {
   color: rebeccapurple;
+  text-decoration: none;
 }
 .vendor-description {
   border-radius: 5px;
