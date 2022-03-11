@@ -154,3 +154,8 @@ h3 {
   height: 50px;
   padding: 30px 10px;
 }
+.gallery-img {
+  max-width: 300px;
+  padding: 10px;
+  margin: 20px;
+}
