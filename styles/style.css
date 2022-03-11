@@ -37,6 +37,7 @@ h4 {
 p {
   font-family: "roboto", sans-serif;
   font-weight: 100;
+  color: #616161;
 }
 .hero {
   text-align: center;
@@ -158,4 +159,12 @@ h3 {
   max-width: 300px;
   padding: 10px;
   margin: 20px;
+}
+.contact-link {
+  color: #616161;
+  text-decoration: none;
+}
+.contact-link:hover {
+  color: purple;
+  text-decoration: underline;
 }
