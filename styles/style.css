@@ -168,3 +168,35 @@ h3 {
   color: purple;
   text-decoration: underline;
 }
+nav {
+  padding: 10px 0px;
+}
+nav ul {
+  padding: 0px;
+  margin: 0px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+nav li.active a,
+nav a:hover {
+  color: white;
+}
+.navbar {
+  font-family: var(--font-family);
+  background: var(--branding-color);
+  color: var(--text-color);
+}
+.nav-link:hover {
+  color: white;
+}
+.navbar-brand {
+  color: var(--text-color);
+}
