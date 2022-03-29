@@ -12,6 +12,7 @@
     rgba(233, 235, 130, 0.47) 100%
   );
   mix-blend-mode: normal;
+  --third-branding-color: #f990bc;
   --font-family: "Roboto", sans-serif;
   --text-color: #616161;
 }
@@ -31,7 +32,7 @@ h3 {
   font-weight: medium;
 }
 h4 {
-  color: palevioletred;
+  color: var(--third-branding-color);
 }
 
 p {
@@ -110,7 +111,7 @@ h3 {
   margin-top: 50px;
 }
 .vendor-link {
-  color: palevioletred;
+  color: var(--third-branding-color);
   text-decoration: none;
 }
 .vendor-link:hover {
@@ -120,7 +121,7 @@ h3 {
 .vendor-description {
   border-radius: 5px;
   border: 2px;
-  border-color: palevioletred;
+  border-color: var(--third-branding-color);
   background-color: whitesmoke;
   padding: 30px;
   margin: 20px;
@@ -217,11 +218,11 @@ footer .email-link {
   font-family: var(--font-family);
 }
 footer .email-link:hover {
-  color: palevioletred;
+  color: var(--third-branding-color);
 }
 footer .social-links a {
   margin: 0px 20px;
-  color: palevioletred;
+  color: var(--third-branding-color);
   background: var(--branding-color);
   padding: 10px 14px;
   font-size: 18px;
@@ -230,5 +231,5 @@ footer .social-links a {
 }
 footer .social-links a:hover {
   color: white;
-  background-color: palevioletred;
+  background-color: var(--third-branding-color);
 }
